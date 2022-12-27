@@ -29,7 +29,10 @@ Por ejemplo:
 "gaitober" => "gato"
 ```
 
-## <div align="center">🌍 Socials</div>
+## <div align="center">Imágenes</div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/agustin-schulze/) 
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/users/Agustin#7843)
+<div align="center"><img src="./assets/img/Screenshot1.png"/></div>
+
+## <div align="center">Socials</div>
+
+<p align="center"> <a href="https://discord.com/users/Agslz#1816" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/Agslz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/agustin-schulze" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
