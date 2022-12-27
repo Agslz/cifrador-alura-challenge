@@ -44,15 +44,20 @@ body {
 
 .text-input {
   float: left;
-  margin-left: 10%;
+  margin-left: 1%;
   margin-top: 1%;
   width: 80%;
   height: 80%;
   color: #0a3871;
-  font-size: 20px;
+  font-size: 30px;
   border: none;
   outline: none;
   background: #f3f5fc;
+}
+
+.text-input::placeholder{
+  color: #0a3871;
+  font-size: 30px;
 }
 
 #right-image {
@@ -69,7 +74,7 @@ body {
 
 #text-encrypt {
   float: left;
-  margin-left: 10%;
+  margin-left: 6%;
   color: #495057;
   width: 80%;
   height: 60%;

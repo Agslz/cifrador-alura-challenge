@@ -38,14 +38,11 @@
           alt="Imagen muñeco Alura"
         />
         <h2 id="text-error">Ningún mensaje fue encontrado</h2>
-        <textarea name="text-encrypt" id="text-encrypt" cols="20" rows="5">Ingresa el texto que desees encriptar o desencriptar.
-          </textarea
-        >
+        <textarea name="text-encrypt" id="text-encrypt" cols="30" rows="7" readonly>Ingresa el texto que desees encriptar o desencriptar.</textarea>
         <button type="button" name="button" id="copy" onclick="copy()">Copiar</button>
       </div>
       <div class="left-button">
-        <p>        <i class="ri-error-warning-fill"></i>
-          Solo minusculas y sin acentos</p>
+        <p><i class="ri-error-warning-fill"></i> Solo minusculas y sin acentos</p>
         <button type="button" id="btn-encrypt" onclick="encrypt()">Encriptar</button>
         <button type="button" id="btn-decrypt" onclick="decrypt()">Desencriptar</button>
       </div>
