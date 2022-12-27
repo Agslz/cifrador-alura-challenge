@@ -110,3 +110,8 @@ body {
   border-radius: 24px;
   display: none;
 }
+
+.swal2-styled.swal2-confirm{
+  /*important le da prioridad a este color de background*/
+  background-color: #0a3871 !important;
+}
