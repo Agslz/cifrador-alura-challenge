@@ -32,6 +32,8 @@ Por ejemplo:
 ## <div align="center">Imágenes</div>
 
 <div align="center"><img src="./assets/img/Screenshot1.png"/></div>
+<div align="center"><img src="./assets/img/Screenshot2.png"/></div>
+
 
 ## <div align="center">Socials</div>
 
