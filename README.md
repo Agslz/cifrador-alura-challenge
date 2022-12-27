@@ -35,6 +35,6 @@ Por ejemplo:
 <div align="center"><img src="./assets/img/Screenshot2.png"/></div>
 
 
-## <div align="center">Socials</div>
+## <div align="center">Contacto</div>
 
 <p align="center"> <a href="https://discord.com/users/Agslz#1816" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/Agslz" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/agustin-schulze" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
