@@ -15,6 +15,9 @@ function encrypt() {
   document.getElementById("copy").style.display = "show";
   document.getElementById("copy").style.display = "inherit";
 
+  const txt = document.getElementById("text-input");
+  txt.value = "";
+
 }
 
 function decrypt() {
@@ -31,6 +34,9 @@ function decrypt() {
   document.getElementById("text-encrypt").innerHTML = encryptedText;
   document.getElementById("copy").style.display = "show";
   document.getElementById("copy").style.display = "inherit";
+
+  const txt = document.getElementById("text-input");
+  txt.value = "";
 
 }
 
