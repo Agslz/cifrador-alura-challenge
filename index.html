@@ -5,53 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Challenge Alura - Cifrador</title>
+    <!--======LINK CSS======-->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="icon" href="./assets/img/favicon-32x32.png" />
+    <!--======REMIX ICON CDN======-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main>
-      <div class="logo-alura">
-        <img src="./assets/img/logo-alura.png" alt="logo-alura" />
+    <div class="container">
+      <div class="logo">
+        <img
+          class="logo-img"
+          src="./assets/img/logo-alura.png"
+          alt="Logo Alura Latam"
+        />
       </div>
+      <div class="left">
+        <input
+          id="text-input"
+          class="text-input"
+          type="text"
+          placeholder="Ingrese el texto aquí"
+        />
+      </div>
+      <div class="right">
+        <img
+          id="right-image"
+          src="./assets/img/muneco-alura.png"
+          alt="Imagen muñeco Alura"
+        />
+        <h2 id="text-error">Ningún mensaje fue encontrado</h2>
+        <textarea name="text-encrypt" id="text-encrypt" cols="20" rows="5">Ingresa el texto que desees encriptar o desencriptar.
+          </textarea
+        >
+        <button type="button" name="button" id="copy" onclick="copy()">Copiar</button>
+      </div>
+      <div class="left-button">
+        <p>        <i class="ri-error-warning-fill"></i>
+          Solo minusculas y sin acentos</p>
+        <button type="button" id="btn-encrypt" onclick="encrypt()">Encriptar</button>
+        <button type="button" id="btn-decrypt" onclick="decrypt()">Desencriptar</button>
+      </div>
+    </div>
 
-      <div class="texto-encriptar">
-        <textarea
-          name="ingresoTexto"
-          id="ingresoTexto"
-          cols="30"
-          rows="10"
-          placeholder="Ingrese su texto aquí"
-        ></textarea>
-      </div>
-
-      <div class="botones-encriptar">
-        <button type="submit" id="encriptar" onclick="encriptar()">
-          Encriptar
-        </button>
-        <button type="submit" id="desencriptar" onclick="desencriptar()">
-          Desencriptar
-        </button>
-      </div>
-
-      <div class="texto-mostrar">
-        <textarea
-          name="mostrarTexto"
-          id="mostrarTexto"
-          cols="30"
-          rows="10"
-        ></textarea>
-      </div>
-
-      <div class="boton-copiar">
-        <button type="submit" id="desencriptar" onclick="copiarTexto()">
-          Copiar
-        </button>
-      </div>
-
-      <div class="footer">
-        <footer>&#169; Agustin Schulze. Todos los derechos reservados</footer>
-      </div>
-      
-    </main>
+    <!--======SWEETALERT CDN======-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--======LINK JS======-->
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
