@@ -1,48 +1,48 @@
-function encriptar() {
-  let ingresoTexto = document
-    .getElementById("ingresoTexto")
-    .value.toLowerCase();
-  let textoEncriptado = "";
+function encrypt() {
+  var text = document.getElementById("text-input").value.toLowerCase();
+  //i es para que afecte tanto mayusculas como minusculas
+  //g es para que toda la oración o frase
+  //m es para que todo afecte a multiples lineas o parrafos
+  var encryptedText = text.replace(/e/igm, "enter");
+  var encryptedText = encryptedText.replace(/o/igm, "ober");
+  var encryptedText = encryptedText.replace(/i/igm, "imes");
+  var encryptedText = encryptedText.replace(/a/igm, "ai");
+  var encryptedText = encryptedText.replace(/u/igm, "ufat");
 
-  if (!ingresoTexto.isEmpty) {
-    textoEncriptado = ingresoTexto.replaceAll("e", "enter");
-    textoEncriptado = textoEncriptado.replaceAll("i", "imes");
-    textoEncriptado = textoEncriptado.replaceAll("a", "ai");
-    textoEncriptado = textoEncriptado.replaceAll("o", "ober");
-    textoEncriptado = textoEncriptado.replaceAll("u", "ufat");
-  }
+  document.getElementById("right-image").style.display = "none";
+  document.getElementById("text-error").style.display = "none";
+  document.getElementById("text-encrypt").innerHTML = encryptedText;
+  document.getElementById("copy").style.display = "show";
+  document.getElementById("copy").style.display = "inherit";
 
-  console.log(textoEncriptado);
-  document.getElementById("mostrarTexto").innerHTML = textoEncriptado;
-  let textoFinal = document.getElementById("ingresoTexto");
-  textoFinal.value = "";
 }
 
-function desencriptar() {
-  let ingresoTexto = document
-    .getElementById("ingresoTexto")
-    .value.toLowerCase();
+function decrypt() {
+  var text = document.getElementById("text-input").value.toLowerCase();
 
-  let textoDesencriptado = "";
+  var encryptedText = text.replace(/enter/igm, "e");
+  var encryptedText = encryptedText.replace(/ober/igm, "o");
+  var encryptedText = encryptedText.replace(/imes/igm, "i");
+  var encryptedText = encryptedText.replace(/ai/igm, "a");
+  var encryptedText = encryptedText.replace(/ufat/igm, "u");
 
-  if (!ingresoTexto.isEmpty) {
-    textoDesencriptado = ingresoTexto.replaceAll("enter", "e");
-    textoDesencriptado = textoDesencriptado.replaceAll("imes", "i");
-    textoDesencriptado = textoDesencriptado.replaceAll("ai", "a");
-    textoDesencriptado = textoDesencriptado.replaceAll("ober", "o");
-    textoDesencriptado = textoDesencriptado.replaceAll("ufat", "u");
+  document.getElementById("right-image").style.display = "none";
+  document.getElementById("text-error").style.display = "none";
+  document.getElementById("text-encrypt").innerHTML = encryptedText;
+  document.getElementById("copy").style.display = "show";
+  document.getElementById("copy").style.display = "inherit";
 
-    document.getElementById("mostrarTexto").innerHTML = textoDesencriptado;
-
-    let textoFinal = document.getElementById("ingresoTexto");
-    textoFinal.value = "";
-  }
 }
 
-function copiarTexto() {
-  let copiarTexto = document.getElementById("mostrarTexto");
-  copiarTexto.select();
+function copy(){
+  var content = document.querySelector("#text-encrypt");
+  content.select();
   document.execCommand("copy");
+  Swal.fire(
+    'Copiado!',
+    'El contenido se encuentra en su papelera',
+    'success'
+  )
 }
 
 /*const removeAccents = (str) => {
