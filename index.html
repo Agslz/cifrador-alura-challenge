@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Alura - Cifrador</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="logo-alura">
+        <img src="./assets/img/logo-alura.png" alt="logo-alura" />
+      </div>
+
+      <div class="texto-encriptar">
+        <textarea
+          name="ingresoTexto"
+          id="ingresoTexto"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese su texto aquí"
+        ></textarea>
+      </div>
+
+      <div class="botones-encriptar">
+        <button type="submit" id="encriptar" onclick="encriptar()">
+          Encriptar
+        </button>
+        <button type="submit" id="desencriptar" onclick="desencriptar()">
+          Desencriptar
+        </button>
+      </div>
+
+      <div class="texto-mostrar">
+        <textarea
+          name="mostrarTexto"
+          id="mostrarTexto"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div class="boton-copiar">
+        <button type="submit" id="desencriptar" onclick="copiarTexto()">
+          Copiar
+        </button>
+      </div>
+
+      <div class="footer">
+        <footer>&#169; Agustin Schulze. Todos los derechos reservados</footer>
+      </div>
+      
+    </main>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
