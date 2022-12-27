@@ -3,21 +3,110 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #f3f5fc;
+  margin: 0px;
+  padding: 0px;
 }
 
-.footer {
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  height: 50px;
+.container {
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+}
+.logo {
   width: 100%;
-  text-align: center;
+  float: left;
+}
+.logo-img {
+  margin-top: 1%;
+  margin-left: 2%;
+  float: inherit;
+}
+.left {
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+}
+.right {
+  float: right;
+  width: 30%;
+  height: auto;
+  border-radius: 24px;
+  background-color: white;
+}
+.left-button {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 24px;
+}
+
+.text-input {
+  float: left;
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 80%;
+  height: 80%;
+  color: #0a3871;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #f3f5fc;
+}
+
+#right-image {
+  margin-left: 2%;
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+}
+
+#text-error {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+#text-encrypt {
+  float: left;
+  margin-left: 10%;
+  color: #495057;
+  width: 80%;
+  height: 60%;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+#btn-encrypt {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  margin-right: 15%;
   background: #0a3871;
+  border-radius: 24px;
   color: #f3f5fc;
 }
 
-footer {
-  margin-top: 0.8rem;
+#btn-decrypt {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 10%;
+  background: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
 }
 
-
+#copy {
+  margin-left: 33%;
+  margin-top: 90%;
+  padding: 24px;
+  width: 40%;
+  height: 10%;
+  background-color: #d8dfe8;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  display: none;
+}
